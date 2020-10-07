@@ -1,0 +1,5 @@
+{% for cloth in cloths %}
+    <div>{{ cloth.text }}</div><br>
+    <div>{{ cloth.price }}</div><br>
+    <div><img src="{{ MEDIA_URL }}{{ cloth.photo.url }}" alt='#'></div><br>
+{% endfor %}

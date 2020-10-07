@@ -1,0 +1,14 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block index %}
+<div id="intro_img" class="w3-display-container w3-container">
+    <img src="{% static 'img/jane.jpg' %}" alt="Jean" style="width:110%">
+        <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+            <h1 class="w3-jumbo w3-hide-small">MILLY </h1>
+            <h1 class="w3-hide-large w3-hide-medium">Milly fashion</h1>
+            <h1 class="w3-hide-small">COLLECTION 2020</h1>
+            <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+        </div>
+</div>
+{% endblock index %}
+
